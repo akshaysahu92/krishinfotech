@@ -1,0 +1,70 @@
+
+.home_middle{
+	margin-top: 2px;
+	padding: 1px;
+}
+.module_allservices {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    border-radius: 11px;
+    height: 675px;
+    margin-top: 12px;
+}
+.user .midcontent {
+    background: rgba(0, 0, 0, 0) url("../images/heading/boxbg.png") repeat-x scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    float: left;
+    font-size: 12px;
+    height: 200px;
+    margin: 18px 0 0 18px;
+    width: 358px;
+}
+.midcontent > h1 {
+    color: #00213c;
+    font-family: georgia;
+    font-size: 20px;
+    padding: 0 0 0 15px;
+    text-transform: capitalize;
+}
+.immg {
+    float: left;
+    left: 12em;
+    position: relative;
+}
+
+.immg2 {
+    float: left;
+    left: 10.6em;
+    position: relative;
+}
+
+.immg3 {
+    float: left;
+    left: 7.8em;
+    position: relative;
+}
+.midcontent > p {
+    padding: 0 11px 0 7px;
+    text-align: justify;
+    margin: 10px 0;
+}
+.read {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    float: left;
+    font-family: georgia;
+    font-size: 14px;
+    font-weight: bold;
+    height: 25px;
+    margin: 0 0 0 18px;
+    padding-left: 9px;
+    padding-top: 0;
+    position: relative;
+    top: 29px;
+    width: 112px;
+}
+.read a {
+    color: #13873c;
+}

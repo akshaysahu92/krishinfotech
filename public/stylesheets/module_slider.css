@@ -1,0 +1,22 @@
+
+.module_slider_client {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    border-radius: 11px;
+    height: 115px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    overflow: hidden;
+    width: 100%;
+}
+.module_slider_client marquee {
+    height: 100%;
+    margin-top: -54px;
+    padding: 1px;
+}
+.module_slider_client img {
+    height: 70%;
+    margin-bottom: -11px;
+    margin-top: -1px;
+    padding: 13px 6px 9px 12px;
+}

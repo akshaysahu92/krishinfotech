@@ -1,0 +1,95 @@
+/* Start : welcome page */
+.module_contentwelcome {
+    background: rgba(0, 0, 0, 0) url("../images/heading/sideheading-bg.jpg") no-repeat scroll 0 0;
+    border-radius: 8px;
+    height: 248px;
+    width: 880px;
+    margin: 0 15px 0 0;
+}
+.module_contentwelcome > p {
+    color: #606161;
+    font-family: arial;
+    font-size: 13px;
+    padding: 0 22px 0 13px;
+    text-align: justify;
+}
+.module_contentwelcome > h1 {
+    color: #79a100;
+    font-family: georgia;
+    font-size: 24px;
+    margin: 0;
+    padding: 17px 0 7px 11px;
+}
+
+.module_contentwelcome > p {
+        color: #606161;
+    font-family: arial;
+    font-size: 13px;
+    padding: 13px 23px 1px 17px;
+    text-align: justify;
+    width: 860px;
+}
+.module_marque {
+    float: right;
+    height: 260px;
+    margin-top: -250px;
+    width: 291px;
+}
+.module_marque h3 {
+    background: rgba(0, 0, 0, 0) url("../images/heading/testi_button.png") no-repeat scroll 0 0;
+    color: #79a100;
+    font-family: georgia;
+    
+    font-size: 32px;
+    height: 50px;
+    margin: 0;
+    padding: 8px 0 0 29px;
+}
+/* end : welcome page */
+/* start : welcome page */
+.home_welcome {
+    margin-top: 18px;
+    width: 1187px;
+}
+.homepage_intro{
+    width: 1160px;
+}
+.mod_simple_marquee_content{
+    background: #fff;
+    
+}
+.module_slider {
+    position: relative;
+    top: 13px;
+    width: 1126px !important;
+}
+.module_marque h3 {
+    background: rgba(0, 0, 0, 0) url("../images/heading/testi_button.png") no-repeat scroll 0 0;
+    color: #79a100;
+    font-family: georgia;
+    font-size: 26px;
+    height: 42px;
+    margin: 0;
+    padding: 5px 0 0 15px;
+    width: 290px;
+}
+.one > p {
+    color: #79a100;
+    font-family: georgia;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 0 16px;
+}
+.user1 {
+    color: darkblue;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 7px 10px 14px;
+    text-align: right;
+}
+.mooquee-text{
+    padding: 1px;
+    overflow-y:scroll;
+    height: 205px; 
+}
+/* end : welcome page */

@@ -1,0 +1,22 @@
+.services_slider{
+	width: 100%;
+}
+.services_slider img{
+	width: 100%;
+}
+.services-info {
+    border-color: #79a100;
+    margin-top: 15px;
+}
+.services-info > .panel-heading {
+    background-color: #79a100;
+    border-color: #79a100;
+    color: #fff;
+}
+.services-info > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #bce8f1;
+}
+.services-info > .panel-heading .badge {
+    background-color: #31708f;
+    color: #d9edf7;
+}
