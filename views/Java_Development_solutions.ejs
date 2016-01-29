@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<!-- give full path without including views as views is the default path -->
+    	<% include partials/page/head.ejs %>
+
+  	</head>
+	<body>
+		<% include partials/page/header.ejs %>
+		<% include partials/page/navigation.ejs %>
+	    <!-- Make Up CONTENT STARTS HERE -->
+	    <div id="" class="services_slider" >
+	    	<img src="images/slider-1.png">
+	    </div>
+		<div class='container home_welcome'>	
+			<div class="panel services-info">
+				
+				<div class="panel-heading"><h3><%=title%></h3></div>		
+				<div class="panel-body">
+					
+					<p>business oriented Java development services for enterprises and elite organizations. Our clients map across various industry verticals inclusive of automotive, e-commerce, banking, real-estate, entertainment, finance, software product development and healthcare. Adroit professionals with extensive industry experience at Xicom adopt a logical yet innovative approach to develop a comprehensive suite of robust and highly scalable Java applications across diverse business domains.</p>
+
+					<p>Organizations demand these highly productive, scalable and robust Java based solutions to decrease their production cost and enhance productivity. Xicom understands the requirements of all our clients at every stage of application development process to deliver tailor-made and integrated Java solutions with highest levels of productivity whilst realizing optimum return on client's investment.</p>
+
+					
+					<ul class="list-group">
+				  		<li class="list-group-item">Java/J2EE Solutions</li>
+				  		<li class="list-group-item">Custom Java Development</li>
+				  		<li class="list-group-item">Java Application Development</li>
+				  		<li class="list-group-item">Enterprise Java Development</li>
+				  		<li class="list-group-item">J2EE Application Development</li>
+				  		<li class="list-group-item">Java Mobile Applications</li>
+				  		<li class="list-group-item">Java/J2EE Software Development</li>
+				  		<li class="list-group-item">Java Application Programming</li>
+				  		<li class="list-group-item">Java Maintenance and Support</li>
+					</ul>
+					<br><br>
+					
+					
+				</div>
+			</div>
+			
+			<% include partials/page/module_slider.ejs %> 
+		</div>
+		<% include partials/page/footer.ejs %>
+		<% include partials/page/jsdefault.ejs %>
+	</body>
+</html>

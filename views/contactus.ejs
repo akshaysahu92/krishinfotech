@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<!-- give full path without including views as views is the default path -->
+    	<% include partials/page/head.ejs %>
+
+  	</head>
+	<body>
+		<% include partials/page/header.ejs %>
+		<% include partials/page/navigation.ejs %>
+	    <!-- Make Up CONTENT STARTS HERE -->
+	    <div id="" class="services_slider" >
+	    	<img src="images/contact-us-banner-1.jpg" style="height: 323px">
+	    </div>
+		<div class='container home_welcome'>	
+			<div class="panel services-info">
+				
+				<div class="panel-heading"><h3><%=title%></h3></div>		
+				<div class="panel-body">
+					<p>KrisInfoTech Solutions<br>
+						10th main Rd , 5th cross.<br>
+						bhuvneswari Layout,munekolala,Marathalli<br>
+						560037 bangalore.<br>
+						Mr.Ravi Kumar<br>
+						Mob:+91 8050164152<br>
+						Email: ravi.raj@krishinfotech.net.in</p>
+					
+					<br>
+					
+				</div>
+			</div>
+			
+			<% include partials/page/module_slider.ejs %> 
+		</div>
+		<% include partials/page/footer.ejs %>
+		<% include partials/page/jsdefault.ejs %>
+	</body>
+</html>

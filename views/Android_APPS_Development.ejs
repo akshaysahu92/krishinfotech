@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<!-- give full path without including views as views is the default path -->
+    	<% include partials/page/head.ejs %>
+
+  	</head>
+	<body>
+		<% include partials/page/header.ejs %>
+		<% include partials/page/navigation.ejs %>
+	    <!-- Make Up CONTENT STARTS HERE -->
+	    <div id="" class="services_slider" >
+	    	<img src="images/slider-1.png">
+	    </div>
+		<div class='container home_welcome'>	
+			<div class="panel services-info">
+				
+				<div class="panel-heading"><h3><%=title%></h3></div>		
+				<div class="panel-body">
+					
+					<p>Android applications are written in the Java programming language. The Android SDK tools compile the code—along with any data and resource files—into an Android package, an archive file with an .apk suffix. All the code in a single .apk file is considered to be one application and is the file that Android-powered devices use to install the application.</p>
+					<p>Application components are the essential building blocks of an Android application. Each component is a different point through which the system can enter your application. Not all components are actual entry points for the user and some depend on each other, but each one exists as its own entity and plays a specific role—each one is a unique building block that helps define your application's overall behavior.</p>
+					<p>Application components are the essential building blocks of an Android application. Each component is a different point through which the system can enter your application. Not all components are actual entry points for the user and some depend on each other, but each one exists as its own entity and plays a specific role—each one is a unique building block that helps define your application's overall behavior.</p>
+					<div class="panel-sub-heading"><h3>OpenGL ES 3.0 for High-Performance Graphics</h3></div>
+					
+					
+
+					<p>Android 4.3 introduces platform support for Khronos OpenGL ES 3.0, providing games and other apps with highest-performance 2D and 3D graphics capabilities on supported devices. You can take advantage of OpenGL ES 3.0 and related EGL extensions using either framework APIs or native API bindings through the Android Native Development Kit (NDK).</p>
+
+					<p>Key new functionality provided in OpenGL ES 3.0 includes acceleration of advanced visual effects, high quality ETC2/EAC texture compression as a standard feature, a new version of the GLSL ES shading language with integer and 32-bit floating point support, advanced texture rendering, and standardized texture size and render-buffer formats.</p>
+
+					<p>You can use the OpenGL ES 3.0 APIs to create highly complex, highly efficient graphics that run across a range of compatible Android devices, and you can support a single, standard texture-compression format across those devices.</p>
+
+					<p>OpenGL ES 3.0 is an optional feature that depends on underlying graphics hardware. Support is already available on Nexus 7 (2013), Nexus 4, and Nexus 10 devices.</p>
+					
+					<br><br>
+					
+					
+				</div>
+			</div>
+			
+			<% include partials/page/module_slider.ejs %> 
+		</div>
+		<% include partials/page/footer.ejs %>
+		<% include partials/page/jsdefault.ejs %>
+	</body>
+</html>

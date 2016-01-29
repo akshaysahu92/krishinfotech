@@ -1,0 +1,28 @@
+{
+	"nav1": "Navigation1",
+	"nav2": "Navigation2",
+	"nav3": "Navigation3",
+	"nav4": "Navigation4",
+	"nav5": "Navigation5",
+	"nav6": "Navigation6",
+	"nav7": "Navigation7",
+	"nav8": "Navigation8",
+	"copy_right": "Demo app designed by Akshay",
+	"title1":"title1",
+	"title2":"title2",
+	"title3":"title3",
+	"tag_line":"Respecting the markets",
+	"properties": {
+		"firstName": {
+			"type": "string"
+		},
+		"lastName": {
+			"type": "string"
+		},
+		"age": {
+			"description": "Age in years",
+			"type": "integer",
+			"minimum": 0
+		}
+	}
+}

@@ -9,11 +9,17 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var home = require('./routes/home');
-var web_design_services = require('./routes/web_design_services');
+var services = require('./routes/services');
+var email_marketing = require('./routes/email_marketing');
+var solutions = require('./routes/solutions');
+var magento_joomla_opencart = require('./routes/magento_joomla_opencart');
 // end : set the routers reside in /routes/index.js
 
 var app = express();
-
+// start : to read json file
+var staticJsonData = require('./public/jsondata/static_data.json');
+// save staticJsonData globaly 
+app.locals.appdata = staticJsonData; 
 // view engine setup and define the ejs paths inside views
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -28,9 +34,37 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // start: handel the url and send to the routers
 app.use('/', routes);
-app.get('/web_design_services', web_design_services);
 app.get('/home', home);
+app.get('/aboutus', home);
 app.use('/users', users);
+app.get('/contactus', home);
+// web_design_services
+app.get('/web_design_services', services);
+app.get('/Web_Development', services);
+app.get('/Web_Design', services);
+app.get('/Flash_Animations', services);
+app.get('/Logo_Designing', services);
+app.get('/content_Management_System', services);
+// EMail_Marketing
+app.get('/EMail_Marketing', email_marketing);
+app.get('/Social_Media_Marketing', email_marketing);
+app.get('/Media_Services', email_marketing);
+app.get('/EMail_Promotions', email_marketing);
+app.get('/Revenue_Generetions', email_marketing);
+app.get('/Lead_Generations', email_marketing);
+// magento_joomla_opencart
+app.get('/magento_joomla_opencart', magento_joomla_opencart);
+app.get('/Ecommerce_web_development', magento_joomla_opencart);
+app.get('/Theme_Costomaization', magento_joomla_opencart);
+app.get('/Ecommerce_web_Maintenance', magento_joomla_opencart);
+app.get('/Payment_Getway_Implementation', magento_joomla_opencart);
+app.get('/Ecommerce_web_designing', magento_joomla_opencart);
+app.get('/Ecommerce_web_applications', magento_joomla_opencart);
+// solutions
+app.get('/Android_APPS_Development', solutions);
+app.get('/Java_Development_solutions', solutions);
+app.get('/Staffing_Solutions', solutions);
+app.get('/Desktop_Application_solutions', solutions);
 // end: // handel the url and send to the routers
 
 

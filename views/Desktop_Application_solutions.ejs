@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<!-- give full path without including views as views is the default path -->
+    	<% include partials/page/head.ejs %>
+
+  	</head>
+	<body>
+		<% include partials/page/header.ejs %>
+		<% include partials/page/navigation.ejs %>
+	    <!-- Make Up CONTENT STARTS HERE -->
+	    <div id="" class="services_slider" >
+	    	<img src="images/slider-1.png">
+	    </div>
+		<div class='container home_welcome'>	
+			<div class="panel services-info">
+				
+				<div class="panel-heading"><h3><%=title%></h3></div>		
+				<div class="panel-body">
+					
+					<p>Our desktop application development services provide you with an efficient, user-friendly, and customized desktop application that can run offline and independent of web-browser. Our desktop applications help businesses meet their respective requirements and provide a competitive advantage in the growing market. As different businesses have specific and unique requirements, our c ustom-developed desktop applications help businesses to fulfill these requirements and achieve success.</p>
+
+					<p>Businesses can experience faster and efficient business processes, better performance and total control through the use of latest Rich Desktop Applications (RDAs) and Rich Internet Desktop Applications (IRDAs). Our desktop applications ensure faster data access, easy content synchronization, and efficient offline operations. These desktop applications can seamlessly integrate with web technologies, Microsoft technologies, OS platforms, and database etc providing better operational functioning.</p>
+					
+<p>The desktop applications from Enterprise Technology Solutions (ETS) provide you with a way to automate specific business process to improve performance, synchronize business process, and employee productivity. Our desktop applications are open for upgradation from time-to-time and provide efficient data security and protection against unauthorized access.</p>
+					<br>
+					
+					
+				</div>
+			</div>
+			
+			<% include partials/page/module_slider.ejs %> 
+		</div>
+		<% include partials/page/footer.ejs %>
+		<% include partials/page/jsdefault.ejs %>
+	</body>
+</html>

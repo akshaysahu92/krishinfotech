@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<!-- give full path without including views as views is the default path -->
+    	<% include partials/page/head.ejs %>
+
+  	</head>
+	<body>
+		<% include partials/page/header.ejs %>
+		<% include partials/page/navigation.ejs %>
+	    <!-- Make Up CONTENT STARTS HERE -->
+	    <div id="" class="services_slider" >
+	    	<img src="images/slider-4.png">
+	    </div>
+		<div class='container home_welcome'>	
+			<div class="panel services-info">
+				
+				<div class="panel-heading"><h3><%= title %></h3></div>		
+				<div class="panel-body">
+					<p>Kris infotech use the term "Revenue Generation" instead of "sales" or "marketing" because the discipline of generating revenue should penetrate every corner of your organization. Revenue generation doesn't just reside in your sales & marketing department.</p>
+					<p>Your company probably has an experienced sales team and a separate marketing team. And if they're like most sales and marketing functions, they’re likely in constant combat. The marketing team is producing leads and sales materials, and the sales team often questions the value of their contribution. Both teams point fingers at the other instead of working together to produce profitable revenue for the organization -- what we're referring to as "revenue generation."</p>
+
+<p>In the meantime, your company's revenue growth is flat and margins are shrinking. Whether you realize it or not, you’re drastically overpaying for results.</p>
+
+<p>Companies who solve this problem can remove 10-15 points of cost while driving their top line to generate predictable results.</p>
+					<br>
+					<ul class="list-group">
+				  		<li class="list-group-item">Defining a revenue focus in your culture</li>
+				  		<li class="list-group-item">Developing an aligned strategy (corporate and revenue) that runs through the office of the CEO to every corner of the organization.</li>
+				  		<li class="list-group-item">Creating a structure efficiently and consistently execute that aligned strategy.</li>
+				  		<li class="list-group-item">Implementing best practices to guide the implementation of revenue tactics.</li>
+				  		<li class="list-group-item">Using metrics to track and adjust with confidence.</li>
+				  		<li class="list-group-item">Documenting learnings for continuous improvement.</li>
+				  		<li class="list-group-item">Leading a lifetime of reliable and profitable growth</li>
+					</ul>
+					
+					
+					<br><br>
+					
+					
+				</div>
+			</div>
+			
+			<% include partials/page/module_slider.ejs %> 
+		</div>
+		<% include partials/page/footer.ejs %>
+		<% include partials/page/jsdefault.ejs %>
+	</body>
+</html>

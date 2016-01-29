@@ -101,6 +101,12 @@ body {
     text-decoration: none;
     opacity: 0.9;
 }
+.dropdown-menu-header{
+  text-decoration: none;
+}
+.dropdown-menu-link{
+  text-decoration: none;
+}
 i.small {
 	font-size: 1em;
 	color: white;
@@ -117,6 +123,12 @@ a.active {
 	right: 10px;
 }
 /* start : slider */
+.carousel-inner > .item{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   width: 100%;
@@ -261,3 +273,8 @@ footer .footer-below {
 	margin-left: 2px;
 }
 /* end : readmore */
+
+/* start : individual pages*/
+
+
+/* end : individual pages*/
